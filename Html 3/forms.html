@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!-- <label>
+            username
+            <input type="text" placeholder="enter username">
+        </label> -->
+        <div>
+            <label for="uname">username</label>
+            <input type="text" id="uname" placeholder="enter username" name="username">
+            <label>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="enter password" name="pass">
+        </div>
+
+        <!-- <div>
+            <label for="number">enter number</label>
+            <input type="number" id="number" placeholder="enter number">
+        </div> -->
+        <!-- <div>
+            <label for="age">age</label>
+            <input type="number" placeholder="enter age" id="age">
+        </div> -->
+        <!-- <div>
+            <input type="submit" value="click me">
+        </div> -->
+        <div>
+            <button type="submit">submit</button>
+            <!-- <button type="button">button</button>
+            <button type="reset">reset</button> -->
+        </div>
+        <div>
+            <input type="checkbox" id="age" name="age">
+            <label for="age">I am 18+</label>
+        </div>
+        <div>
+            <input type="radio" name="fruit" id="Apple">
+            <label for="Apple">Apple</label>
+            <input type="radio" name="fruit" id="Banana">
+            <label for="Banana">Banana</label>
+            <input type="radio" name="fruit" id="Mango">
+            <label for="Mango">Mango</label> 
+        </div>
+        <div>
+            <label for="volume">select volume level</label>
+            <input type="range" id="volume" min="0" max="200" step="20">
+            <button>submit</button>
+        </div>
+        <div>
+            <label for="feedback">please provide your valuable feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="write here"></textarea>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

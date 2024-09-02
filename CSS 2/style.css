@@ -1,0 +1,113 @@
+*{
+    font-family: "Courier New";
+}
+
+h3{
+    color: red;
+}
+
+h1{
+    color: #b92b27;
+}
+
+#login{
+    background-color:white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.follow{
+    color:red;
+}
+
+.upvote{
+    background-color: green;
+}
+
+
+/* descendant selector */
+p a{
+    color:purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+/* sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    color: black;
+    background-color:darkviolet;
+}
+
+/* child combinator */
+div > input{
+    background-color: blanchedalmond;
+}
+
+/* attribute */
+input[type="text"]{
+    color: rgb(5, 119, 5);
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: rgb(244, 244, 243);
+}
+
+/* practice question */
+#myId p{
+    color: blue;
+}
+
+/* psedo class */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: bisque;
+}
+
+h1::first-letter{
+    color: rgb(51, 2, 2);
+}
+
+/* h3::first-line{
+    color: ;
+} */
+
+p::selection{
+    background-color: antiquewhite;
+}

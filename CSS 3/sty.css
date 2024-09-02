@@ -1,0 +1,19 @@
+/* h2{
+    background-color: pink;
+    display: inline;
+}
+
+span{
+    background-color: yellow;
+    display: block;
+} */
+
+div{
+    background-color: yellow;
+}
+
+span{
+    margin: 20px;
+    border: 20px;
+    background-color: hotpink;
+}

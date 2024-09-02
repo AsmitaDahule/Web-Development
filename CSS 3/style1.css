@@ -1,0 +1,11 @@
+div{
+    background-color: green;
+    height: 100px;
+    width: 64px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#third{
+    display: none;
+}

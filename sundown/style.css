@@ -101,3 +101,53 @@ nav{
     border-radius: 30px;
     margin-top:4vw;
 }
+
+#hero-shape{
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    right: 0;
+    top: 65vh;
+}
+
+#hero-1{
+    height: 100%;
+    width: 100%;
+    background-color:#FE320A;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(15px);
+    position: absolute;
+}
+
+#hero-2{
+    height: 30vw;
+    width: 30vw;
+    background-color:#FE320A;
+   border-radius: 50%;
+    filter: blur(15px);
+    position: absolute;
+}
+
+#hero-3{
+    height: 30vw;
+    width: 30vw;
+    background-color:#FE320A;
+    border-radius:50%;
+    filter: blur(15px);
+    position: absolute;
+    /* animation-name: anime1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes anime1{
+    from{
+        transform: translate(-10%,10%);
+    }
+    to{
+        transform: translate(10%,-10%);
+    }
+}
